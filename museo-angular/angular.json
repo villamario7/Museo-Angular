@@ -90,10 +90,22 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-          }
+
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            
+                "src/styles.scss"
+            
+                ],
+            "scripts": [
+
+    "node_modules/jquery/dist/jquery.min.js",
+
+    "node_modules/@popperjs/core/dist/umd/popper.min.js",
+
+    "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+    ]
+    
         }
       }
     }
@@ -101,4 +113,5 @@
   "cli": {
     "analytics": "7c743d5b-8860-4717-bb16-c4f3c4c9040e"
   }
+}
 }
