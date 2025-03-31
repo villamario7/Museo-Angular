@@ -6,7 +6,7 @@
     "museo-angular": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -16,9 +16,7 @@
             "outputPath": "dist/museo-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -29,12 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -78,10 +71,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
@@ -90,20 +80,13 @@
               }
             ],
             "styles": [
-
-              "node_modules/bootstrap/scss/bootstrap.scss",
-
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-            
-              "src/styles.scss"
-            
-                ],
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
             "scripts": [
-
-               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-
-    ]
-    
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
+          }
         }
       }
     }
@@ -111,5 +94,4 @@
   "cli": {
     "analytics": "7c743d5b-8860-4717-bb16-c4f3c4c9040e"
   }
-}
 }
