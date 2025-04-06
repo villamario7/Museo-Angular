@@ -10,10 +10,34 @@
     },
     
     {
-      "nombre": "imagen2",
-      "autor": "autor",
-      "fecha": "fecha",
-      "imagen": "img/girasoles.png"
+      "nombre": "Almuerzo sobre un rascacielos",
+      "autor": "Charles Clyde Ebbets",
+      "fecha": "1932",
+      "imagen": "img/almuerzo.png"
+    },
+    {
+      "nombre": "El beso",
+      "autor": "Alfred Eisenstaedt",
+      "fecha": "1945",
+      "imagen": "img/beso.png"
+    },
+    {
+      "nombre": "La Mujer de la Sombrilla",
+      "autor": "Claude Monet",
+      "fecha": "1875",
+      "imagen": "img/monet.png"
+    },
+    {
+      "nombre": "The Madonna della Pietà",
+      "autor": "Miguel Ángel",
+      "fecha": "1875",
+      "imagen": "img/monet.png"
+    },
+    {
+      "nombre": "El David",
+      "autor": "Miguel Ángel",
+      "fecha": "1498 ",
+      "imagen": "img/madonna.jpg"
     }
   ]
 }

@@ -8,6 +8,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { PagoComponent } from './pages/pago/pago.component';
+import { HttpClientModule } from '@angular/common/http'; //para arreglar el rollo datajson de catalogo.component
 
 export const routes: Routes = [
     {path: '', redirectTo: '/home', pathMatch: 'full'},
