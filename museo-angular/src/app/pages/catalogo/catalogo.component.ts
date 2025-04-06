@@ -8,29 +8,29 @@ import { Expositor } from '../../common/expositor';
   templateUrl: './catalogo.component.html',
   styleUrl: './catalogo.component.css'
 })
-export class CatalogoComponent {
-constructor( private dataservice: DataService){}
-ngOnInit(): void {
-  this.loadArticulos();
-}
+export class CatalogoComponent implements OnInit{ 
+  constructor( private dataservice: DataService){}
+  
+  ngOnInit(): void {
+    this.loadArticulos();
+  }
 
-loadArticulos() {
-  this.dataservice.getArticulos().subscribe(
-    {
-      next: (data)=>{
-        this.expositor = data;
-        console.log(data);
-      },
-      error: (error)=>{
-        console.log(error);
-      },
-      complete: ()=>{
-        console.log('complete');
+  loadArticulos() {
+    this.dataservice.getArticulos().subscribe(
+      {
+        next: (data)=>{
+          this.expositor = data;
+          console.log(data);
+        },
+        error: (error)=>{
+          console.log(error);
+        },
+        complete: ()=>{
+          console.log('complete');
+        }
       }
-    }
-  )
+    )
 
-}
-expositor! : Expositor;
-
+  }
+  expositor! : Expositor;
 }
