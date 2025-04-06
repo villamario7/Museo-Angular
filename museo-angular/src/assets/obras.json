@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "Almuerzo en la cima",
+    "autor": "Charles C. Ebbets",
+    "descripcion": "Fue tomada en Nueva York, el 20 de septiembre de 1932, en plena Gran Depresión, y en ella aparecen 11 obreros sentados sobre una viga de hierro en el piso 69 del edificio RCA del Rockefeller Center, a 259 metros de altura. La imagen se convirtió en un símbolo de la ambición y la capacidad de resistencia de Estados Unidos en una época de profunda crisis económica.",
+    "imagen": "../img/almuerzo.png"
+  },
+  {
+    "titulo": "El beso",
+    "autor": "Alfred Eisenstaedt",
+    "descripcion": "V-J Day in Times Square (también conocida como V-Day y The Kiss) es una famosa fotografía de Alfred Eisenstaedt que retrata a un marinero estadounidense besando a una joven mujer vestida de blanco durante las celebraciones del Día de la Victoria sobre Japón en Times Square el 14 de agosto de 1945.",
+    "imagen": "../img/beso.png"
+  },
+  {
+    "titulo": "El David",
+    "autor": "Miguel Ángel",
+    "descripcion": "Al bloque de mármol de Carrara que acabaría siendo el David, los canteros lo llamaban “El gigante”. Medía más de 5 metros de alto y varios escultores habían intentado sacar algo de él sin éxito. Pero en 1501, Miguel Ángel decide ponerse a ello.",
+    "imagen": "../img/david_entero.webp"
+  },
+  {
+    "titulo": "Los Girasoles",
+    "autor": "Vincent van Gogh",
+    "descripcion": "Estas pintura, realizadas entre 1888 y 1889 en Arlés, Francia, reflejan el genio y la intensidad emocional del artista a través de su característico uso del color y la pincelada expresiva.",
+    "imagen": "../img/girasoles.png"
+  },
+  {
+    "titulo": "The Madonna della Pietà",
+    "autor": "Miguel Ángel",
+    "descripcion": "El tema de la Piedad siempre se ha representado de manera tormentosa ante la situación que protagonizan la Virgen María y su hijo Jesús. Sin embargo, Miguel Ángel va más allá y realiza una Piedad plasmando armonía, belleza y equilibro, dejando a un lado el excesivo dolor.",
+    "imagen": "../img/madonna.jpg"
+  },
+  {
+    "titulo": "La Mujer de la Sombrilla",
+    "autor": "Claude Monet",
+    "descripcion": "El cuadro 'Mujer con sombrilla' es una de las obras más conocidas del artista impresionista francés Claude Monet. Monet pintó esta obra en 1875 durante su estancia en el pueblo de Argenteuil, ubicado en las afueras de París.",
+    "imagen": "../img/monet.png"
+  }
+]

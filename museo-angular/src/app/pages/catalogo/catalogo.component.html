@@ -1,1 +1,12 @@
-<p>catalogo works!</p>
+<div class="catalogo">
+    <h2>Catálogo de Obras</h2>
+    <div *ngIf="obras.length === 0">Cargando obras...</div>  <!-- Mensaje de carga -->
+    
+    <div *ngFor="let obra of obras" class="obra">
+      <h3>{{ obra.titulo }}</h3>
+      <p><strong>Artista:</strong> {{ obra.artista }}</p>
+      <p>{{ obra.descripcion }}</p>
+      <img [src]="'assets/images/' + obra.imagen" [alt]="obra.titulo" class="obra-imagen">
+    </div>
+  </div>
+  
