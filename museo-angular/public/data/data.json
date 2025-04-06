@@ -1,0 +1,19 @@
+{
+  "evento": "Exposición 1",
+  "fecha": "2025-07-26",
+  "articulos": [
+    {
+      "nombre": "Girasoles",
+      "autor": "Vincent van Gogh",
+      "fecha": "1888",
+      "imagen": "img/girasoles.png"
+    },
+    
+    {
+      "nombre": "imagen2",
+      "autor": "autor",
+      "fecha": "fecha",
+      "imagen": "img/girasoles.png"
+    }
+  ]
+}

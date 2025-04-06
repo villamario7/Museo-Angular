@@ -7,3 +7,24 @@
     </div>
   </div>
 
+
+  <div class="container d-flex flex-column">
+    <h1 class="display-2 text-center">EVENTOs: {{expositor.evento}}</h1>
+    <h1 class="display-4 text-center">{{expositor.fecha}}</h1>
+    <h2 class="display-2 text-center m-4">Articulos</h2>
+    <div class=" container d-flex flex-row flex-wrap justify-content-between">
+  
+      @for (articulo of expositor.articulos; track $index) {
+        <div class="card m-3" style="width: 15rem;">
+          <img src="{{articulo.imagen}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{articulo.nombre}}</h5>
+            <p class="card-text">{{articulo.autor}}</p>
+            <p class="card-text">{{articulo.fecha}}</p>
+            <a href="#" class="btn btn-primary">Ver Participante</a>
+          </div>
+        </div>
+      }
+  
+    </div>
+  </div>
