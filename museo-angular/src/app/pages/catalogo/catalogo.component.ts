@@ -8,14 +8,5 @@ import { Component } from '@angular/core';
 })
 export class CatalogoComponent {
 
-  imagenes: any[] = [];
 
-  ngOnInit(): void {
-    fetch('assets/galeria.json')
-      .then(res => res.json())
-      .then(data => {
-        this.imagenes = data;
-      })
-      .catch(err => console.error('Error al cargar JSON:', err));
-  }
 }
