@@ -1,28 +1,9 @@
 <div class="container my-5">
-  <!-- Fila de 3 imágenes arriba -->
-  <div class="row mb-4">
-    <div class="col-md-4">
-      <img src="imagen1.jpg" class="img-fluid rounded" alt="Imagen 1">
-    </div>
-    <div class="col-md-4">
-      <img src="imagen2.jpg" class="img-fluid rounded" alt="Imagen 2">
-    </div>
-    <div class="col-md-4">
-      <img src="imagen3.jpg" class="img-fluid rounded" alt="Imagen 3">
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let imagen of imagenes">
+        <img [src]="imagen.src" class="img-fluid rounded" [alt]="imagen.titulo">
+        <p class="text-center mt-2">{{ imagen.titulo }}</p>
+      </div>
     </div>
   </div>
-
-  <!-- Fila de 3 imágenes abajo -->
-  <div class="row">
-    <div class="col-md-4">
-      <img src="imagen4.jpg" class="img-fluid rounded" alt="Imagen 4">
-    </div>
-    <div class="col-md-4">
-      <img src="imagen5.jpg" class="img-fluid rounded" alt="Imagen 5">
-    </div>
-    <div class="col-md-4">
-      <img src="imagen6.jpg" class="img-fluid rounded" alt="Imagen 6">
-    </div>
-  </div>
-</div>
 
