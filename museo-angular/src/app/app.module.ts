@@ -1,19 +1,17 @@
-import { HttpClientModule } from '@angular/common/http';
-import { AppComponent } from './app.component';
-import { CatalogoComponent } from './pages/catalogo/catalogo.component';
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+
+import { AppComponent } from './app.component';  // AppComponent standalone
+import { CatalogoComponent } from './pages/catalogo/catalogo.component';  // Importa el componente standalone
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CatalogoComponent
-  ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    CatalogoComponent // Importa el componente standalone directamente
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  // Ya no es necesario declarar componentes en "declarations"
 })
 export class AppModule { }

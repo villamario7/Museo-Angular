@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true // Indica que este es un componente standalone
 })
 export class AppComponent {
-  title = 'museo-angular';
+  title = 'Museo Virtual de Arte';
 }
