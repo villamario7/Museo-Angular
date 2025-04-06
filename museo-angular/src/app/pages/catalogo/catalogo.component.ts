@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-catalogo',
   templateUrl: './catalogo.component.html',
   styleUrls: ['./catalogo.component.css'],
-  standalone: true // Indica que es un componente standalone
+  standalone: true,
+  imports: [CommonModule]
 })
 export class CatalogoComponent {
-  // Tu lógica para el catálogo
+obras: any;
+
 }
