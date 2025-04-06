@@ -6,38 +6,44 @@
       "nombre": "Girasoles",
       "autor": "Vincent van Gogh",
       "fecha": "1888",
-      "imagen": "img/girasoles.png"
+      "imagen": "img/girasoles.png",
+      "link": "/girasoles"
     },
     
     {
       "nombre": "Almuerzo sobre un rascacielos",
       "autor": "Charles Clyde Ebbets",
       "fecha": "1932",
-      "imagen": "img/almuerzo.png"
+      "imagen": "img/almuerzo.png",
+      "link": "/almuerzo"
     },
     {
       "nombre": "El beso",
       "autor": "Alfred Eisenstaedt",
       "fecha": "1945",
-      "imagen": "img/beso.png"
+      "imagen": "img/beso.png",
+      "link": "/beso"
     },
     {
       "nombre": "La Mujer de la Sombrilla",
       "autor": "Claude Monet",
       "fecha": "1875",
-      "imagen": "img/monet.png"
+      "imagen": "img/monet.png",
+      "link": "/sombrilla"
     },
     {
       "nombre": "The Madonna della Pietà",
       "autor": "Miguel Ángel",
       "fecha": "1875",
-      "imagen": "img/monet.png"
+      "imagen": "img/madonna.jpg",
+      "link": "/madonna"
     },
     {
       "nombre": "El David",
       "autor": "Miguel Ángel",
       "fecha": "1498 ",
-      "imagen": "img/madonna.jpg"
+      "imagen": "img/david_entero.webp",
+      "link": "/david"
     }
   ]
 }
