@@ -1,7 +1,22 @@
-.row {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1140px; /* o el ancho que tú quieras */
+/* Centrar el formulario dentro de un contenedor */
+.container {
+    max-width: 500px; /* Limitar el tamaño del formulario */
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Centrar el título */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Asegura que los botones y elementos tengan un buen espaciado */
+  .mb-3 {
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    width: 100%; /* Hace que el botón ocupe todo el ancho disponible */
   }
