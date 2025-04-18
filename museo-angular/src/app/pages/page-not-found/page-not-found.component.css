@@ -1,0 +1,21 @@
+  .txt-brown{
+    color:#9b6f3e;
+  }
+  .txt-black{
+    color: #201A16;
+    }
+  
+   /* Botones */
+   .btn-primary {
+    font-size: 20px;
+    background-color: #9b6f3e;
+    border: none;
+    font-family: 'Arsenal', serif;
+  }
+  
+  .btn-primary:hover {
+    background-color: #814c14;
+  }
+
+  
+ 

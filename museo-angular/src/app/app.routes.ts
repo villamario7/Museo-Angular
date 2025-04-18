@@ -8,6 +8,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { PagoComponent } from './pages/pago/pago.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http'; //para arreglar el rollo datajson de catalogo.component
 
 //imports articulos
@@ -41,4 +42,7 @@ export const routes: Routes = [
     {path: 'girasoles', component : ArtGirasolesComponent},
     {path: 'madonna', component : ArtMadonnaComponent},
     {path: 'sombrilla', component : ArtSombrillaComponent},
+
+    //Rutas de error
+    {path: '**', component : PageNotFoundComponent},
 ];
