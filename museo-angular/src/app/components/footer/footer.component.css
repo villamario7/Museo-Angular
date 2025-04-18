@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+footer {
+    width: 100%;
+    background-color: #201A16;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arsenal', serif;
+    margin-bottom: 0 !important; 
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* El contenido principal ocupa todo el espacio disponible */
+  main {
+    flex: 1;
+  }
+
+  footer .col-md-4, footer .nav {
+    margin-bottom: 0 !important; 
+  }
+  
+  footer .nav li {
+    margin-bottom: 0 !important; 
+  }
+
+  footer .text-body-secondary {
+    color: #faf9f8 !important;
+  }
+
+  footer .nav-link.text-body-secondary {
+  color: #faf9f8 !important;
+}
+  
+  footer .copy-footer {
+    font-size: 0.9rem;
+    color: #faf9f8;
+  }
+  
+  footer .logo-footer svg {
+    fill: #faf9f8;
+  }
+  
+  footer .social-link {
+    color: #faf9f8;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-link:hover {
+    color: #a6761d;
+  }
+  
+  footer .social-link svg {
+    fill: #faf9f8;
+    transition: fill 0.3s ease;
+  }
+  
+  footer .social-link:hover svg {
+    fill: #a6761d;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  header .nav .nav-link {
+    font-size: 18px;
+    color: #201A16 !important;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  /* Hover */
+  header .nav .nav-link:hover {
+    color: #9b6f3e !important;
+    text-decoration: none;
+  }
+  
+  /* Línea decorativa inferior al hacer hover */
+  header .nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #9b6f3e;
+    transition: width 0.3s ease;
+  }
+  
+  /* Expande la línea al hacer hover */
+  header .nav .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  /* Enlace activo de Angular Router */
+  header .nav .router-link-active {
+    font-weight: bold;
+    color: #9b6f3e !important;
+  }
+  
+  /* Línea decorativa fija para el activo */
+  header .nav .router-link-active::after {
+    width: 100%;
+  }
