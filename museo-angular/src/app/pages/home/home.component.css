@@ -1,0 +1,17 @@
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px; /* o el ancho que tú quieras */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-item {
+    height: 500px;
+    margin-bottom: 32px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }

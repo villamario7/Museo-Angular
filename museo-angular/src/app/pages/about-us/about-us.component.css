@@ -1,25 +1,7 @@
-.cuerpo{
-    display: flex;
-}
-.cuerpo .contenedor-about{
-    flex-direction: column;
-    padding-left: 25px;
-    padding-right: 129px;
-    padding-bottom: 100px;
-}
-.cuerpo img{
-    width: 591px;
-    height: 761px;
-    padding-left: 129px;
-    padding-bottom: 100px;
-}
-.button-about{
-    width: 150px; 
-    height: 50px; 
-    background-color: #9b6f3e;
-    color: #faf9f8;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer; 
-    font-size: 20px;
-}
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px; /* o el ancho que tú quieras */
+    margin-left: auto;
+    margin-right: auto;
+  }

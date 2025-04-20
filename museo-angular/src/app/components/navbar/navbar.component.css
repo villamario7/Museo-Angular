@@ -1,0 +1,81 @@
+header {
+    border-bottom: 2px solid #9b6f3e !important;
+    padding: 1rem 0;
+    font-family: 'Arsenal', serif;
+    margin: 20px;
+  }
+  
+  /* Título */
+  header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #9b6f3e;
+    margin: 0;
+  }
+
+  
+  /* Menú de navegación */
+  .nav-link {
+    font-size: 20px;
+    color: #201A16;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #9b6f3e;
+  }
+  
+  /* Reglas específicas para el enlace activo */
+  .nav-link.active,
+  .nav-link.router-link-active {
+    font-weight: bold !important;  /* Asegura que el enlace activo sea bold */
+    color: #9b6f3e !important;     /* Asegura que el enlace activo tenga el color correcto */
+  }
+  
+  /* Botones */
+  .btn-primary {
+    font-size: 20px;
+    background-color: #9b6f3e;
+    border: none;
+    font-family: 'Arsenal', serif;
+  }
+  
+  .btn-primary:hover {
+    background-color: #814c14;
+  }
+  
+  .btn-outline-primary {
+    font-size: 20px;
+    color: #9b6f3e;
+    border-color: #a6761d;
+    font-family: 'Arsenal', serif;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #a6761d;
+    color: #faf9f8;
+  }
+  
+  /* Responsive ajustes opcionales */
+  @media (max-width: 900px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .nav-link {
+      margin: 0.5rem;
+    }
+  
+    .text-end {
+      margin-top: 1rem;
+    }
+  }
+  

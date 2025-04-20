@@ -1,0 +1,22 @@
+/* Alinea el título a la izquierda */
+.featurette-heading {
+    text-align: left;
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  /* Reduce los márgenes del formulario */
+  .container {
+    padding-left: 15px; /* Reduce margen izquierdo */
+    padding-right: 15px; /* Reduce margen derecho */
+    max-width: 600px; /* Limita el tamaño del formulario */
+  }
+  
+  .form-control {
+    width: 100%; /* Hace que los inputs ocupen todo el ancho disponible */
+  }
+  
+  .row.g-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  

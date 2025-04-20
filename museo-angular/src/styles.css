@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+/* Archivo styles.css */
+
+/* Cambiar todos los botones btn-primary a marrón */
+.btn-primary {
+    background-color: #9b6f3e !important;
+    border-color: #9b6f3e !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #814c14 !important;
+    border-color: #814c14 !important;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.25rem rgba(157, 111, 62, 0.5) !important;
+  }
+
+*{
+    font-family: 'Arsenal', serif;
+  }
+
+
+  
