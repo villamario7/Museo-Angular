@@ -1,0 +1,16 @@
+{
+    "evento": "Exposición 1",
+    "fecha": "2025-07-26",
+    "listaExpos": [
+        {
+            "titulo" : "Nueva Exposición: 'El Impresionismo en su Esplendor'",
+            "descripcion" : "Adéntrate en el vibrante mundo del impresionismo con nuestra nueva exposición virtual, que celebra a maestros como Claude Monet, Vincent van Gogh, Edgar Degas y muchos más. Descubre cómo estos artistas rompieron las reglas tradicionales para capturar la belleza efímera de la luz, el movimiento y la naturaleza. Explora obras icónicas como los 'Mujer con sombrilla' de Monet o “Los Girasoles” de Van Gogh en un recorrido inmersivo que te permitirá apreciar cada pincelada y detalle con una cercanía nunca antes vista. Además, disfruta de contenido interactivo, historias detrás de las obras y experiencias que te conectarán con el espíritu revolucionario de esta corriente artística que cambió la historia del arte para siempre.<br><strong>Sumérgete en esta experiencia única y deja que el impresionismo ilumine tus sentidos. ¡Visítanos hoy!</strong>",
+            "imagen" : "img/exhibicion.jpg"
+        },
+        {
+            "titulo" : "ExpoTitulo2",
+            "descripcion" : "ExpoDesc2",
+            "imagen" : "img/almuerzo.png"
+        }
+    ]
+}

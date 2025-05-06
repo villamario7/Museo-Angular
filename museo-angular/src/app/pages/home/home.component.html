@@ -43,6 +43,19 @@
         <strong> Tu viaje empieza aquí. ¡Adelante!</strong></p>
     </div>
   </div>
+
+  @for (exposicion of dataExposicion.listaExpos; track $index) {
+    <div class="row featurette">
+      <div class="col-md-6">
+        <h2 class="featurette-heading fw-normal lh-1">{{exposicion.titulo}}</h2>
+        <p>{{exposicion.descripcion}} </p>
+      </div>
+      <div class="col-md-6">
+          <img src="{{exposicion.imagen}}" class="featurette-image img-fluid mx-auto" alt="exhibicion" width="500" height="500"></div>
+    </div>
+  }
+
+<!--
 <br><br>
   <div class="row featurette">
     <div class="col-md-6">
@@ -54,4 +67,4 @@
     <div class="col-md-6">
         <img src="img/exhibicion.jpg" class="featurette-image img-fluid mx-auto" alt="exhibicion" width="500" height="500"></div>
   </div>
- 
+-->

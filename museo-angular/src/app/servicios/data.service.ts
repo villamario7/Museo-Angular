@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Expositor } from '../common/expositor';
+import { dataExposicion } from '../common/dataExposicion';
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +13,10 @@ export class DataService {
 
   getArticulos(): Observable<Expositor>{
     return this.http.get<Expositor>('data/data.json');
+  }
+
+  getExposiciones() : Observable<dataExposicion>{
+    return this.http.get<dataExposicion>('data/expo.json');
   }
 
   //establecer el protocolo http
