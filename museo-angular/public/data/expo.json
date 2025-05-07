@@ -1,6 +1,4 @@
 {
-    "evento": "Exposición 1",
-    "fecha": "2025-07-26",
     "listaExpos": [
         {
             "titulo" : "Nueva Exposición: 'El Impresionismo en su Esplendor'",
@@ -11,6 +9,21 @@
             "titulo" : "ExpoTitulo2",
             "descripcion" : "ExpoDesc2",
             "imagen" : "img/almuerzo.png"
+        },
+        {
+            "titulo" : "ExpoTitulo3",
+            "descripcion" : "ExpoDesc2",
+            "imagen" : "img/poker.webp"
+        },
+        {
+            "titulo" : "ExpoTitulo4",
+            "descripcion" : "ExpoDesc2",
+            "imagen" : "img/monet.png"
+        },
+        {
+            "titulo" : "ExpoTitulo5",
+            "descripcion" : "ExpoDesc2",
+            "imagen" : "img/girasoles.png"
         }
     ]
 }
