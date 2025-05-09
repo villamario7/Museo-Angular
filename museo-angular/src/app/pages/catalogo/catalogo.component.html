@@ -8,7 +8,7 @@
             <h5 class="card-title">{{articulo.nombre}}</h5>
             <p class="card-text">{{articulo.autor}}</p>
             <p class="card-text">{{articulo.fecha}}</p>
-            <a routerLink="{{articulo.link}}" class="btn btn-primary">Ver más</a>
+            <a [routerLink]="['/obra-detalle', articulo.id]" class="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>

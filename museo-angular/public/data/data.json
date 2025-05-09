@@ -3,47 +3,78 @@
   "fecha": "2025-07-26",
   "articulos": [
     {
+      "id": "1",
       "nombre": "Girasoles",
       "autor": "Vincent van Gogh",
       "fecha": "1888",
       "imagen": "img/girasoles.png",
-      "link": "/girasoles"
+      "link": "/girasoles",
+
+      "detalle_titulo": "<strong>Girasoles,</strong>",
+      "detalle_autor": "de Vincent Van Gogh",
+      "detalle_desc": "Estas pintura, realizadas entre 1888 y 1889 en Arlés, Francia, reflejan el genio y la intensidad emocional del artista a través de su característico uso del color y la pincelada expresiva.<br><br>Los girasoles, símbolo de vida, luz y energía, fueron un motivo recurrente en la obra de Van Gogh. En esta serie, el artista exploró la vibrante paleta de los amarillos, ocres y anaranjados, creando contrastes dinámicos sobre fondos de tonos suaves. La textura gruesa de la pintura al óleo, aplicada con pinceladas enérgicas y empastadas, confiere a las flores una sensación de movimiento y vitalidad.<br><br>Estas obras fueron concebidas originalmente para decorar la habitación de su amigo y colega Paul Gauguin, en la famosa Casa Amarilla de Arlés, donde Van Gogh soñaba con crear un refugio artístico. Sin embargo, más allá de su propósito decorativo, 'Los Girasoles' representan la intensidad emocional y la visión única del artista sobre la naturaleza y la luz.<br><br>Cada versión de esta serie posee una identidad propia, pero todas comparten la esencia de la genialidad de Van Gogh: la transformación de lo cotidiano en algo sublime y profundamente expresivo."
+      
     },
     
     {
+      "id": "2",
       "nombre": "Almuerzo sobre un rascacielos",
       "autor": "Charles Clyde Ebbets",
       "fecha": "1932",
       "imagen": "img/almuerzo.png",
-      "link": "/almuerzo"
+      "link": "/almuerzo",
+
+      "detalle_titulo": "<strong>Almuerzo en la cima,</strong>",
+      "detalle_autor" : "de Charles C. Ebbets",
+      "detalle_desc" : "Fue tomada en Nueva York,   el 20 de septiembre de 1932, en plena Gran Depresión, y en ella aparecen 11 obreros sentados sobre una viga de hierro en el piso 69 del edificio RCA del Rockefeller Center, a 259 metros de altura. La imagen, de gran potencia visual, se convirtió en un símbolo de la ambición y la capacidad de resistencia de Estados Unidos en una época de profunda crisis económica. Fue además la imagen icónica de Nueva York y de sus habitantes, capaces de embarcarse en proyectos (peligrosos y de altura) que asustarían a otras ciudades. <br><br> Pero esta fotografía no está exenta de misterio y de alguna que otra polémica. La polemica principal es que la foto no es tan espontánea como parece en un primer momento. Fue, de hecho, un gran montaje publicitario.Los 11 obreros eran reales, pero la imagen fue escenificada para mayor gloria del Rockefeller Center, que quería promocionar su nuevo rascacielos. Quisieron mostrar la imagen de unos trabajadores en un descanso para el almuerzo durante la construcción del edificio. El impacto de ver a una serie de trabajadores, colgados de una viga, mientras almuerzan y fuman despreocupadamente fue tal que la fotografía pronto se convirtió en una de las imágenes más reproducidas de la historia.En agosto de 1945, Shain estaba trabajando en un hospital de Nueva York como enfermera cuando ella y un amigo oyeron en el radio que la Segunda Guerra Mundial había terminado. Fueron a Times Square, donde se encontraba una multitud celebrándolo y nada más salir del metro, un marinero la agarró del brazo y la besó. Shain contó que en aquel momento pensó que podía dejar que la besara puesto que aquel hombre había luchado por ella durante la guerra. <br><br> Lo cierto es que el día que se tomó la foto también se tomaron otras muchas, del mismo estilo, porque había varios fotógrafos trabajando en el mismo lugar, prueba irrefutable de que se trataba de un montaje publicitario. <br><br> Dato curioso: uno de los obreros ha sido identificado como un ciudadano vasco."
     },
     {
+      "id": "3",
       "nombre": "El beso",
       "autor": "Alfred Eisenstaedt",
       "fecha": "1945",
       "imagen": "img/beso.png",
-      "link": "/beso"
+      "link": "/beso",
+
+      "detalle_titulo": "<strong>El beso,</strong>",
+      "detalle_autor": "de Alfred Eisenstaedt",
+      "detalle_desc": "V-J Day in Times Square (también conocida como V-Day y The Kiss) es una famosa fotografía de Alfred Eisenstaedt que retrata a un marinero estadounidense besando a una joven mujer vestida de blanco durante las celebraciones del Día de la Victoria sobre Japón en Times Square el 14 de agosto de 1945. La fotografía fue originalmente publicada una semana después en la revista Life, entre otras muchas fotografías de las celebraciones en el país, presentadas en una sección de doce páginas llamada Victory. La imagen de dos personas besándose era la favorita de los fotógrafos que cubrían la guerra en la época y muchos de ellos animaban a las personas a posar de esta forma. Sin embargo, Eisenstaedt estaba fotografiando un acontecimiento espontáneo, que ocurrió en Times Square con el anuncio del fin de la Segunda Guerra Mundial realizado por el presidente Harry S. Truman. <br><br> Debido a que al momento de tomar la foto, los protagonistas no fueron registrados, sus nombres quedaron en el incógnito, años después muchas personas reclamaron ser los protagonistas, solo Eisenstaedt podía identificarlos mediante un análisis comparativo de su fisonomía.        <br><br> Estas obras fueron concebidas originalmente para decorar la habitación de su amigo y colega Paul Gauguin, en la famosa Casa Amarilla de Arlés, donde Van Gogh soñaba con crear un refugio artístico. Sin embargo, más allá de su propósito decorativo, 'Los Girasoles' representan la intensidad emocional y la visión única del artista sobre la naturaleza y la luz. <br><br> En agosto de 1945, Shain estaba trabajando en un hospital de Nueva York como enfermera cuando ella y un amigo oyeron en el radio que la Segunda Guerra Mundial había terminado. Fueron a Times Square, donde se encontraba una multitud celebrándolo y nada más salir del metro, un marinero la agarró del brazo y la besó. Shain contó que en aquel momento pensó que podía dejar que la besara puesto que aquel hombre había luchado por ella durante la guerra. <br><br> Mientras que el marinero George Mendonsa, estaba con su cita en el cine cuando comenzó a correr la voz de la noticia de la rendición de Japón. el marinero corrió a lo largo de la calle agarrando a todas y cada de las chicas que se ponían a su alcance."
     },
     {
+      "id": "4",
       "nombre": "La Mujer de la Sombrilla",
       "autor": "Claude Monet",
       "fecha": "1875",
       "imagen": "img/monet.png",
-      "link": "/sombrilla"
+      "link": "/sombrilla",
+
+      "detalle_titulo": "<strong>La mujer de la sombrilla,</strong>",
+      "detalle_autor": "de Claude Monet",
+      "detalle_desc": "El cuadro 'Mujer con sombrilla' es una de las obras más conocidas del artista impresionista francés Claude Monet. Monet pintó esta obra en 1875 durante su estancia en el pueblo de Argenteuil, ubicado en las afueras de París.<br><br>La pintura representa a una mujer caminando con una sombrilla en un campo o prado. La mujer está vestida con un vestido de colores claros y se encuentra en una pose animada y en movimiento. La sombrilla, pintada con tonos vibrantes, crea un contraste llamativo con la naturaleza circundante. El fondo muestra prados verdes y un cielo azul con nubes suaves y ondulantes. Monet captura la calidad de la luz y el aire a través de pinceladas cortas y rápidas características de su estilo, y una paleta de colores frescos. 'Mujer con sombrilla' es un excelente ejemplo del interés de Claude Monet por capturar momentos fugaces y las cambiantes condiciones de iluminación.<br><br>La técnica de los impresionistas se centraba en el efecto general de la pintura en lugar del realismo detallado. Monet a menudo pintaba en plein air, es decir, al aire libre, para capturar la luz y la atmósfera en constante cambio de la naturaleza. La pintura también simboliza el interés de Claude Monet por representar la vida moderna. Con frecuencia pintaba escenas de personas, especialmente mujeres, en paisajes naturales. Se cree que la mujer en 'Mujer con sombrilla' es su esposa, Camille, u otro miembro de su familia. Es una obra icónica del impresionismo, que representa la habilidad de Monet para capturar el juego de la luz y la atmósfera en la naturaleza. La pintura ha inspirado a muchos artistas y sigue cautivando a los espectadores con su belleza y elegancia."
     },
     {
+      "id": "5",
       "nombre": "The Madonna della Pietà",
       "autor": "Miguel Ángel",
       "fecha": "1875",
       "imagen": "img/madonna.jpg",
-      "link": "/madonna"
+      "link": "/madonna",
+
+      "detalle_titulo": "<strong>The Madonna della Pietà,</strong>",
+      "detalle_autor": "de Miguel Ángel",
+      "detalle_desc": "El tema de la Piedad siempre se ha representado de manera tormentosa ante la situación que protagonizan la Virgen María y su hijo Jesús. Sin embargo, Miguel Ángel va más allá y realiza una Piedad plasmando armonía, belleza y equilibro, dejando a un lado el excesivo dolor <br><br> Nos situamos en 1498 en Roma, en pleno apogeo del Renacimiento. El cardenal Saint Denis encarga al escultor florentino, Miguel Ángel, que realice una Piedad. Se trata de la actual Piedad del Vaticano, también nombrada como Pietà, creada en mármol de Carrara y localizada en la capilla del Crucifijo de la Basílica de San Pedro. El grupo escultórico forma un triángulo equilátero sobre una base elíptica, que otorga equilibrio y estabilidad a la imagen. Es notable la influencia neoplatónica sobre el escultor, que da como resultado el idealismo renacentista que hace que la belleza predomine sobre el sufrimiento. <br><br> De esta forma, a pesar del momento tan duro que se representa, la Virgen María aparece con el rostro joven, bello e inmaculado, simbolizando a María eternamente virgen y madre. Jesús con un aspecto más maduro que el de su madre, representando un rostro común en la naturaleza humana. Una característica poco visible pero si muy importante es el portentoso tamaño de María, ya que si se pusiera de pié, se vería a una mujer de unas dimensiones demasiado grandes. Pero todo tiene su explicación, y es para así corregir la óptica sobre la escultura desde el suelo, situando el cuerpo de Jesús en un punto de apoyo mayor. <br><br> Miguel Ángel pone mucha atención también en los detalles y en la anatomía, además de la inteligencia de saber jugar con las luces y las sombras, como en los pliegues de los paños de la Virgen, en los que casi se hace deslizar la luz. Así tenemos la Piedad más armoniosa de todas, que como última curiosidad, es la única obra firmada por Miguel Ángel. La firma la plasmo sobre la Virgen, en la misma noche en la que se enteró de que circulaba el rumor de que esta escultura no era de su autoría."
     },
     {
+      "id": "6",
       "nombre": "El David",
       "autor": "Miguel Ángel",
       "fecha": "1498 ",
       "imagen": "img/david_entero.webp",
-      "link": "/david"
+      "link": "/david",
+
+      "detalle_titulo": "<strong>El David,</strong>",
+      "detalle_autor": "de Miguel Ángel",
+      "detalle_desc": "Al bloque de mármol de Carrara que acabaría siendo el David, los canteros lo llamaban “El gigante”. Medía más de 5 metros de alto y varios escultores habían intentado sacar algo de él sin éxito. Pero en 1501, Miguel Ángel decide ponerse a ello. Se pasó mucho tiempo mirando el bloque, que estaba en el patio del Departamento de Obras de la catedral, comido por la maleza. Dio vueltas a su alrededor durante meses. <br><br> Cuatro años se pasó Miguel Ángel esculpiendo la obra. Poco se sabe de como fue naciendo la escultura, pues el escultor pidió que levantaran cuatro muros alrededor del bloque, para poder protegerlo de los curiosos. Cuando al fin se mostró la pieza, se derribaron los muros como en un gran espectáculo, y la gente quedó estupefacta. <br><br> Lo que en principio era una escultura religiosa, tomó inmediatamente connotaciones políticas. Los Médicis habían sido expulsados de Florencia y la ciudad se había transformado en una república, por lo que el David fue visto como un símbolo de libertad, una obra de arte que recordaría a los gobernantes que debían proteger a Florencia de la injusticia, como había hecho el rey David. Por supuesto hubo críticos. Sobre todo por la desnudez del joven, pero eran otros tiempos. Hace 500 años había una cierta libertad artística que incluso permitía el desnudo en el arte religioso. Miguel Ángel no quiso vestir a su David porque para él la desnudez simbolizaba al hombre en armonía con la naturaleza. El David fue una obra creada para ser contemplada desde distintos puntos de vista, al contrario que la manera medieval, que diseñaba las esculturas para ser vistas exclusivamente desde el frente. Muchos dicen que esa es la prueba de la visión que tenía el arte renacentista del ser humano, menos ligado a la religión y más a los valores de la belleza. ​"
     }
   ]
 }
