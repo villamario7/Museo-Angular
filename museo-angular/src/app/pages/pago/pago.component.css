@@ -1,7 +1,48 @@
-.row {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1140px; /* o el ancho que tú quieras */
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* Estilo para todos los elementos */
+* {
+  font-family: 'Arsenal', serif;
+}
+
+/* Estilos para el botón primario */
+.btn-primary {
+  background-color: #9b6f3e !important;
+  border-color: #9b6f3e !important;
+}
+
+.btn-primary:hover {
+  background-color: #814c14 !important;
+  border-color: #814c14 !important;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.25rem rgba(157, 111, 62, 0.5) !important;
+}
+
+/* Estilos de los radio buttons */
+.single_doonate label {
+  cursor: pointer;
+  transition: text-decoration 0.2s ease;
+}
+
+.single_doonate label:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el input de cantidad */
+#customAmount {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+#customAmount:disabled {
+  background-color: #f5f5f5; /* Color de fondo cuando está deshabilitado */
+  color: #bbb; /* Texto más claro cuando está deshabilitado */
+  cursor: not-allowed;
+}
+
+#customAmount:enabled {
+  opacity: 1;
+  background-color: white; /* Fondo blanco cuando está habilitado */
+  color: #333; /* Texto oscuro cuando está habilitado */
+  cursor: text;
+}
