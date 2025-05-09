@@ -30,10 +30,11 @@ export class HomeComponent implements OnInit {
         }
       },
       error: (error) => {
-        console.error('Error al cargar exposiciones:', error);
+        console.error('Error al cargar las exposiciones:', error);
+        // Manejo de errores, como mostrar un mensaje al usuario o redirigir a otra página
       },
       complete: () => {
-        console.log('Carga completa');
+       
       }
     });
   }
