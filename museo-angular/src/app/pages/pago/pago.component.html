@@ -1,145 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <title> Formulario de dontivo </title>
-    <style>
-        .cart {
-            border: 1px solid #e0e0e0;
-            padding: 15px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container mt-5">
-        <h3> Direccion de facturacion </h3>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="firstName"> Nombre </label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Nombre">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="lastName"> Apellido </label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Apellido">
+<div data-scroll-index="1" class="make_donation_area section_padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section_title text-center mb-55">
+                    <h3><span>Make a Donation</span></h3>
                 </div>
             </div>
-            <div class="form-group">
-                <label for="username">&#64; Nombre de usuario </label>
-                <input type="text" class="form-control" id="username" placeholder="Nombre de usuario">
-            </div>
-            <div class="form-group">
-                <label for="email"> Email (Opcional) </label>
-                <input type="email" class="form-control" id="email" placeholder="Email (Opcional)">
-            </div>
-            <div class="form-group">
-                <label for="address"> Direccion </label>
-                <input type="text" class="form-control" id="address" placeholder="Direccion">
-            </div>
-            <div class="form-group">
-                <label for="address2"> Segunda direccion (Opcional) </label>
-                <input type="text" class="form-control" id="address2" placeholder="Segunda direccion (Opcional)">
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="country"> Pais </label>
-                    <select id="country" class="form-control">
-                        <option selected> Elige... </option>
-                        <option> Cuba </option>
-                        <option> Turquia </option>
-                    </select>
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="state"> Ciudad </label>
-                    <select id="state" class="form-control">
-                        <option selected> Elige... </option>
-                        <option> Valencia </option>
-                        <option> Malaga </option>
-                    </select>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="zip">Zip</label>
-                <input type="text" class="form-control" id="zip" placeholder="Zip">
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="sameAddress">
-                <label class="form-check-label" for="sameAddress"> Mi direccion de envio es la misma que mi direccion de facturacion </label>
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="saveInfo">
-                <label class="form-check-label" for="saveInfo"> Guarda mi informacion para la proxima vez </label>
-            </div>
-        </form>
-
-        <div class="cart mt-4">
-            <h4> Carrito <span class="badge badge-secondary">3</span></h4>
-            <ul class="list-unstyled">
-                <li> Nombre del producto <span class="float-right">$69</span></li>
-                <li> Nombre del producto 2 <span class="float-right">$420</span></li>
-                <li> Nombre del producto 3 <span class="float-right">$80085</span></li>
-            </ul>
-            <hr>
-            <div class="d-flex justify-content-between">
-                <strong> Codigo promocional </strong>
-                <strong>- $5</strong>
-            </div>
-            <div class="d-flex justify-content-between">
-                <strong>Total (USD)</strong>
-                <strong>$20</strong>
-            </div>
-            <form class="mt-3">
-                <div class="form-group">
-                    <label for="promoCode"> Codigo promocional </label>
-                    <input type="text" class="form-control" id="promoCode" placeholder="Codigo promocional">
-                </div>
-                <button type="submit" class="btn btn-primary"> Canjear </button>
-            </form>
         </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form action="#" class="donation_form">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <div class="single_amount">
+                                <div class="input_field">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text" id="basic-addon1">$</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="40,200" aria-label="Username" aria-describedby="basic-addon1">
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="single_amount">
+                               <div class="fixed_donat d-flex align-items-center justify-content-between">
+                                   <div class="select_prise">
+                                       <h4>Select Amount:</h4>
+                                   </div>
+                                    <div class="single_doonate"> 
+                                        <input type="radio" id="blns_1" name="radio-group" checked="">
+                                        <label for="blns_1">10</label>
+                                    </div>
+                                    <div class="single_doonate"> 
+                                        <input type="radio" id="blns_2" name="radio-group" checked="">
+                                        <label for="blns_2">30</label>
+                                    </div>
+                                    <div class="single_doonate"> 
+                                        <input type="radio" id="Other" name="radio-group" checked="">
+                                        <label for="Other">Other</label>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="donate_now_btn text-center">
+                    <a href="#" class="boxed-btn4">Donate Now</a>
+                </div>
+            </div>
 
-        <h3 class="mt-4"> Pago </h3>
-        <form>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="paymentMethod" id="creditCard" value="creditCard" checked>
-                <label class="form-check-label" for="creditCard"> Tarjeta de credito </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="paymentMethod" id="debitCard" value="debitCard">
-                <label class="form-check-label" for="debitCard"> Tarjeta de debito </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="paypal">
-                <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-            <div class="form-row mt-3">
-                <div class="form-group col-md-6">
-                    <label for="nameOnCard"> Nombre en la tarjeta </label>
-                    <input type="text" class="form-control" id="nameOnCard" placeholder="Nombre en la tarjeta">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="cardNumber"> Numero de la tarjeta de credito </label>
-                    <input type="text" class="form-control" id="cardNumber" placeholder="Numero de la tarjeta de credito">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="expiration"> Fecha de caducidad </label>
-                    <input type="text" class="form-control" id="expiration" placeholder="MM/AA">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="cvv">CVV</label>
-                    <input type="text" class="form-control" id="cvv" placeholder="CVV">
-                </div>
-            </div>
-            <button type="submit" class="btn btn-success"> Continuar al pago </button>
-        </form>
+        </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+</div>

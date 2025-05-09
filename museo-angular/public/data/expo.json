@@ -1,29 +1,29 @@
 {
     "listaExpos": [
         {
-            "titulo" : "Nueva Exposición: 'El Impresionismo en su Esplendor'",
+            "titulo" : "'El Impresionismo en su Esplendor'",
             "descripcion" : "Adéntrate en el vibrante mundo del impresionismo con nuestra nueva exposición virtual, que celebra a maestros como Claude Monet, Vincent van Gogh, Edgar Degas y muchos más. Descubre cómo estos artistas rompieron las reglas tradicionales para capturar la belleza efímera de la luz, el movimiento y la naturaleza. Explora obras icónicas como los 'Mujer con sombrilla' de Monet o “Los Girasoles” de Van Gogh en un recorrido inmersivo que te permitirá apreciar cada pincelada y detalle con una cercanía nunca antes vista. Además, disfruta de contenido interactivo, historias detrás de las obras y experiencias que te conectarán con el espíritu revolucionario de esta corriente artística que cambió la historia del arte para siempre.<br><strong>Sumérgete en esta experiencia única y deja que el impresionismo ilumine tus sentidos. ¡Visítanos hoy!</strong>",
             "imagen" : "img/exhibicion.jpg"
         },
         {
-            "titulo" : "ExpoTitulo2",
-            "descripcion" : "ExpoDesc2",
-            "imagen" : "img/almuerzo.png"
+            "titulo" : "'Dalí: Entre el Sueño y la Realidad'",
+            "descripcion" : "Bienvenidos a esta exposición dedicada a Salvador Dalí, uno de los artistas más icónicos y provocadores del siglo XX. Maestro del surrealismo, Dalí transformó el arte con su estilo onírico, su imaginación desbordante y su personalidad excéntrica. A través de sus pinturas, esculturas, fotografías y objetos, esta muestra nos invita a explorar un universo donde los relojes se derriten, los paisajes se deforman y lo imposible cobra vida. Adentrarse en el mundo de Dalí es descubrir una mente brillante que rompió las reglas del arte para dar forma a sus propios sueños.",
+            "imagen" : "img/expoDali.jpg"
         },
         {
-            "titulo" : "ExpoTitulo3",
-            "descripcion" : "ExpoDesc2",
-            "imagen" : "img/poker.webp"
+            "titulo" : "'Leonardo da Vinci: El Arte de un Genio Universal'",
+            "descripcion" : "Esta exposición celebra la vida y obra de Leonardo da Vinci, figura emblemática del Renacimiento y símbolo del genio humano. Pintor, inventor, científico y filósofo, Leonardo trascendió su tiempo con una visión que fusionó arte y conocimiento. A través de sus obras maestras, bocetos y estudios, exploramos el universo de un hombre cuya curiosidad insaciable dio origen a algunos de los iconos más admirados de la historia del arte. Bienvenidos al mundo de Leonardo: donde la belleza, la ciencia y la imaginación se encuentran.",
+            "imagen" : "img/expoDaVinci.webp"
         },
         {
-            "titulo" : "ExpoTitulo4",
-            "descripcion" : "ExpoDesc2",
-            "imagen" : "img/monet.png"
+            "titulo" : "'Sebastião Salgado: La Humanidad en Blanco y Negro'",
+            "descripcion" : "Esta exposición presenta el trabajo del fotógrafo brasileño Sebastião Salgado, cuya cámara ha sido testigo de la condición humana en sus formas más crudas y sublimes. A través de sus poderosas imágenes en blanco y negro, Salgado documenta la vida de comunidades marginadas, paisajes remotos y realidades sociales con una profundidad ética y estética inconfundible. Sus fotografías no solo capturan instantes, sino que nos confrontan con la belleza, el sufrimiento y la dignidad del mundo que habitamos. Bienvenidos a un viaje visual que despierta la conciencia y el asombro.",
+            "imagen" : "img/expoSalgado.jpg"
         },
         {
-            "titulo" : "ExpoTitulo5",
-            "descripcion" : "ExpoDesc2",
-            "imagen" : "img/girasoles.png"
+            "titulo" : "'Jeff Koons: El Esplendor de lo Cotidiano'",
+            "descripcion" : "Esta exposición invita a descubrir el universo brillante, provocador y lúdico de Jeff Koons, uno de los artistas contemporáneos más influyentes y controversiales. Con obras que elevan objetos comunes a la categoría de arte —desde globos metálicos hasta aspiradoras— Koons borra los límites entre la alta cultura y el consumo masivo. Sus esculturas monumentales, de colores vibrantes y acabados impecables, nos desafían a repensar el valor, la belleza y el significado en el arte del siglo XXI. Bienvenidos a un mundo donde lo banal se vuelve sublime.",
+            "imagen" : "img/expoKoons.jpg"
         }
     ]
 }
