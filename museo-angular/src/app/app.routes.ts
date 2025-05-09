@@ -18,6 +18,7 @@ import { ArtDavidComponent } from './pages/articulos/art-david/art-david.compone
 import { ArtGirasolesComponent } from './pages/articulos/art-girasoles/art-girasoles.component';
 import { ArtMadonnaComponent } from './pages/articulos/art-madonna/art-madonna.component';
 import { ArtSombrillaComponent } from './pages/articulos/art-sombrilla/art-sombrilla.component';
+import { ObraDetalleComponent } from './pages/obra-detalle/obra-detalle.component';
 
 export const routes: Routes = [
     {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -42,6 +43,10 @@ export const routes: Routes = [
     {path: 'girasoles', component : ArtGirasolesComponent},
     {path: 'madonna', component : ArtMadonnaComponent},
     {path: 'sombrilla', component : ArtSombrillaComponent},
+
+    //rutas articulos 2, componente defecto
+    {path: 'obra-detalle', component : ObraDetalleComponent},
+    {path: 'obra-detalle/:id', component : ObraDetalleComponent},
 
     //Rutas de error
     {path: '**', component : PageNotFoundComponent},

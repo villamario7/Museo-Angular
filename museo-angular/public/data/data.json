@@ -3,47 +3,78 @@
   "fecha": "2025-07-26",
   "articulos": [
     {
+      "id": "1",
       "nombre": "Girasoles",
       "autor": "Vincent van Gogh",
       "fecha": "1888",
       "imagen": "img/girasoles.png",
-      "link": "/girasoles"
+      "link": "/girasoles",
+
+      "detalle_titulo": "gira",
+      "detalle_autor": "sol",
+      "detalle_desc": "saca los cuernos"
+      
     },
     
     {
+      "id": "2",
       "nombre": "Almuerzo sobre un rascacielos",
       "autor": "Charles Clyde Ebbets",
       "fecha": "1932",
       "imagen": "img/almuerzo.png",
-      "link": "/almuerzo"
+      "link": "/almuerzo",
+
+      "detalle_titulo": "<strong>Almuerzo en la cima,</strong>",
+      "detalle_autor" : "de Charles C. Ebbets",
+      "detalle_desc" : "Fue tomada en Nueva York, el 20 de septiembre de 1932, en plena Gran Depresión, y en ella aparecen 11 obreros sentados sobre una viga de hierro en el piso 69 del edificio RCA del Rockefeller Center, a 259 metros de altura. La imagen, de gran potencia visual, se convirtió en un símbolo de la ambición y la capacidad de resistencia de Estados Unidos en una época de profunda crisis económica. Fue además la imagen icónica de Nueva York y de sus habitantes, capaces de embarcarse en proyectos (peligrosos y de altura) que asustarían a otras ciudades. <br><br> Pero esta fotografía no está exenta de misterio y de alguna que otra polémica. La polemica principal es que la foto no es tan espontánea como parece en un primer momento. Fue, de hecho, un gran montaje publicitario.Los 11 obreros eran reales, pero la imagen fue escenificada para mayor gloria del Rockefeller Center, que quería promocionar su nuevo rascacielos. Quisieron mostrar la imagen de unos trabajadores en un descanso para el almuerzo durante la construcción del edificio. El impacto de ver a una serie de trabajadores, colgados de una viga, mientras almuerzan y fuman despreocupadamente fue tal que la fotografía pronto se convirtió en una de las imágenes más reproducidas de la historia.En agosto de 1945, Shain estaba trabajando en un hospital de Nueva York como enfermera cuando ella y un amigo oyeron en el radio que la Segunda Guerra Mundial había terminado. Fueron a Times Square, donde se encontraba una multitud celebrándolo y nada más salir del metro, un marinero la agarró del brazo y la besó. Shain contó que en aquel momento pensó que podía dejar que la besara puesto que aquel hombre había luchado por ella durante la guerra. <br><br> Lo cierto es que el día que se tomó la foto también se tomaron otras muchas, del mismo estilo, porque había varios fotógrafos trabajando en el mismo lugar, prueba irrefutable de que se trataba de un montaje publicitario. <br><br> Dato curioso: uno de los obreros ha sido identificado como un ciudadano vasco."
     },
     {
+      "id": "3",
       "nombre": "El beso",
       "autor": "Alfred Eisenstaedt",
       "fecha": "1945",
       "imagen": "img/beso.png",
-      "link": "/beso"
+      "link": "/beso",
+
+      "detalle_titulo": "",
+      "detalle_autor": "",
+      "detalle_desc": ""
     },
     {
+      "id": "4",
       "nombre": "La Mujer de la Sombrilla",
       "autor": "Claude Monet",
       "fecha": "1875",
       "imagen": "img/monet.png",
-      "link": "/sombrilla"
+      "link": "/sombrilla",
+
+      "detalle_titulo": "",
+      "detalle_autor": "",
+      "detalle_desc": ""
     },
     {
+      "id": "5",
       "nombre": "The Madonna della Pietà",
       "autor": "Miguel Ángel",
       "fecha": "1875",
       "imagen": "img/madonna.jpg",
-      "link": "/madonna"
+      "link": "/madonna",
+
+      "detalle_titulo": "",
+      "detalle_autor": "",
+      "detalle_desc": ""
     },
     {
+      "id": "6",
       "nombre": "El David",
       "autor": "Miguel Ángel",
       "fecha": "1498 ",
       "imagen": "img/david_entero.webp",
-      "link": "/david"
+      "link": "/david",
+
+      "detalle_titulo": "",
+      "detalle_autor": "",
+      "detalle_desc": ""
     }
   ]
 }

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { Expositor } from '../common/expositor';
+import { map, Observable } from 'rxjs';
+import { Expositor, articulo } from '../common/expositor';
 import { dataExposicion } from '../common/dataExposicion';
 
 @Injectable({
@@ -13,6 +13,20 @@ export class DataService {
 
   getArticulos(): Observable<Expositor>{
     return this.http.get<Expositor>('data/data.json');
+  }
+
+  getArticuloById(id : string): Observable<articulo>{
+    return this.getArticulos().pipe(map(
+      arts=>{
+        const articuloSingular = arts.articulos.find(articuloSingular => articuloSingular.id == id);
+
+        if(!articuloSingular){
+          throw new Error ('No se encontró el articulo con el id' + id);
+        }
+        return articuloSingular;
+      }
+    )
+  )
   }
 
   getExposiciones() : Observable<dataExposicion>{
