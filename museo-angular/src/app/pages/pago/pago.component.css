@@ -1,4 +1,4 @@
-/* Estilo para todos los elementos */
+/* Tipografía general */
 * {
   font-family: 'Arsenal', serif;
 }
@@ -7,6 +7,11 @@
 .btn-primary {
   background-color: #9b6f3e !important;
   border-color: #9b6f3e !important;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-primary:hover {
@@ -14,35 +19,96 @@
   border-color: #814c14 !important;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary:focus,
+.btn-primary.focus {
   box-shadow: 0 0 0 0.25rem rgba(157, 111, 62, 0.5) !important;
 }
 
 /* Estilos de los radio buttons */
 .single_doonate label {
   cursor: pointer;
-  transition: text-decoration 0.2s ease;
+  transition: text-decoration 0.2s ease, color 0.2s ease;
+  margin-left: 0.25rem;
+  font-weight: 500;
+}
+
+.single_doonate input[type="radio"] {
+  margin-right: 4px;
 }
 
 .single_doonate label:hover {
   text-decoration: underline;
+  color: #9b6f3e;
+}
+
+/* Agrupación de los radios centrada con espacio */
+.fixed_donat {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Estilo del título de la selección */
+.select_prise h5 {
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 /* Estilo para el input de cantidad */
 #customAmount {
   opacity: 0.6;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  border-radius: 6px;
+  max-width: 100px;
+  margin: 0 auto;
 }
 
 #customAmount:disabled {
-  background-color: #f5f5f5; /* Color de fondo cuando está deshabilitado */
-  color: #bbb; /* Texto más claro cuando está deshabilitado */
+  background-color: #f5f5f5;
+  color: #bbb;
   cursor: not-allowed;
 }
 
 #customAmount:enabled {
   opacity: 1;
-  background-color: white; /* Fondo blanco cuando está habilitado */
-  color: #333; /* Texto oscuro cuando está habilitado */
+  background-color: white;
+  color: #333;
   cursor: text;
+}
+
+/* Alinear grupo del input y símbolo $ */
+.input-group {
+  justify-content: center;
+}
+
+.input-group-text {
+  background-color: #f0f0f0;
+  border-radius: 6px 0 0 6px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.form-control {
+  border-radius: 0 6px 6px 0;
+  border: 1px solid #ccc;
+}
+
+/* Alineación del botón "Donate Now" */
+.donate_now_btn {
+  margin-top: 1rem;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 576px) {
+  .fixed_donat {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #customAmount {
+    max-width: 80%;
+  }
 }

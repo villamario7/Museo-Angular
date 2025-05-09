@@ -1,62 +1,46 @@
 <body>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        window.addEventListener('load', function () {
             const customAmountInput = document.getElementById('customAmount');
             const radios = document.querySelectorAll('input[name="radio-group"]');
-            
-            // Por defecto, el input estará deshabilitado
+    
+            // Deshabilitar al inicio
             customAmountInput.disabled = true;
-
+    
             radios.forEach(radio => {
                 radio.addEventListener('change', function () {
+                    console.log("equisde");
                     if (this.id === 'Other') {
-                        // Habilitar el campo de cantidad solo si se selecciona 'Other'
-                        customAmountInput.disabled = false;
-                        customAmountInput.placeholder = "40,200";  // Mostrar placeholder
-                        customAmountInput.value = "";  // Limpiar el valor cuando se selecciona 'Other'
+                        customAmountInput.disabled = false; // Habilitar el input
+                        customAmountInput.placeholder = "40,200"; // Establecer placeholder
+                        customAmountInput.value = ""; // Limpiar valor
                     } else {
-                        // Deshabilitar el campo de cantidad cuando no se selecciona 'Other'
-                        customAmountInput.disabled = true;
-                        customAmountInput.placeholder = "";  // Quitar placeholder
-                        customAmountInput.value = "";  // Limpiar el valor cuando no se selecciona 'Other'
+                        customAmountInput.disabled = true; // Deshabilitar el input
+                        customAmountInput.value = ""; // Limpiar valor
                     }
                 });
             });
         });
     </script>
-  
-    <div data-scroll-index="1" class="make_donation_area section_padding">
-        <div class="container">
+
+<div data-scroll-index="1" class="make_donation_area section_padding">
+    <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-55">
-                        <h3><span>Haz una donacion</span></h3>
+                        <h3><span>Haz una donación</span></h3>
                     </div>
                 </div>
             </div>
+
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <form action="#" class="donation_form">
-                        <div class="row align-items-center">
-                            <div class="col-md-4">
-                                <div class="single_amount">
-                                    <div class="input_field">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1">$</span>
-                                            </div>
-                                            <!-- Input de cantidad con id y placeholder vacío por defecto -->
-                                            <input type="text" id="customAmount" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1" disabled>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="single_amount">
-                                    <div class="fixed_donat d-flex align-items-center justify-content-between">
-                                        <div class="select_prise">
-                                            <h5>Select Amount:</h5>
-                                        </div>
+                        <div class="row justify-content-center mb-3">
+                            <div class="col-md-12">
+                                <div class="single_amount text-center">
+                                    <h5>Selecciona una cantidad:</h5>
+                                    <div class="fixed_donat d-flex justify-content-center gap-3 mt-2">
                                         <div class="single_doonate">
                                             <input type="radio" id="blns_1" name="radio-group">
                                             <label for="blns_1">10</label>
@@ -67,21 +51,34 @@
                                         </div>
                                         <div class="single_doonate">
                                             <input type="radio" id="Other" name="radio-group">
-                                            <label for="Other">Otra cantidad</label>
+                                            <label for="Otra cantidad">Otra Cantidad</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- NUEVO input debajo de los radios -->
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-md-4">
+                                <div class="input-group justify-content-center">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">$</span>
+                                    </div>
+                                    <input type="text" id="customAmount" class="form-control text-center" placeholder="" aria-label="Amount" aria-describedby="basic-addon1" >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Botón -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="donate_now_btn text-center">
+                                    <a href="#" class="btn btn-primary">Donar</a>
+                                </div>
+                            </div>
+                        </div>
                     </form>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="donate_now_btn text-center">
-                        <br>
-                        <a href="#" class="btn btn-primary">Donar ahora</a>
-                    </div>
                 </div>
             </div>
         </div>
